@@ -6,9 +6,12 @@ public class Transport {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
+
     public String getModelName() {
         return modelName;
-    }public int getWheelsCount() {
+    }
+
+    public int getWheelsCount() {
         return wheelsCount;
     }
 }
