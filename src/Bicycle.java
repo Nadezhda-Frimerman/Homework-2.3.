@@ -4,4 +4,7 @@ public class Bicycle extends Transport {
         super(modelName, wheelsCount);
     }
 
+    public void service () {
+        updateTyre();
+    }
 }
