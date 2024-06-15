@@ -14,8 +14,9 @@ public abstract class Transport implements Serviceable {
     public int getWheelsCount() {
         return wheelsCount;
     }
+
     public void updateTyre() {
-        for (int i = 0; i < wheelsCount ; i++) {
+        for (int i = 0; i < wheelsCount; i++) {
             System.out.println("Меняем покрышку");
         }
 
